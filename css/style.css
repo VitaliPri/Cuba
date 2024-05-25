@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__top {
+  background-image: url("../images/cuba.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+.header__top-inner {
+  display: flex;
+  height: 100%;
+  border: 2px solid #ecb84c;
+  border-bottom: none;
+  flex-direction: column;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.header__title {
+  margin: auto;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Prompt;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__text {
+  margin-bottom: -12px;
+  align-items: center;
+  white-space: nowrap;
+  display: flex;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  font-family: Loto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__text::after,
+.header__text::before {
+  content: "";
+  border-top: 2px solid #ecb84c;
+  width: 100%;
+}
+
+.header__text::after {
+  margin-left: 30px;
+}
+.header__text::before {
+  margin-right: 30px;
+}
