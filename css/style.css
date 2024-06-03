@@ -281,3 +281,7 @@ a {
   max-width: 640px;
   margin: 0 auto;
 }
+
+.photo {
+  margin-bottom: 80px;
+}
