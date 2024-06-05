@@ -277,11 +277,33 @@ a {
   right: 0;
 }
 
+.photo {
+  margin-bottom: 80px;
+}
+
 .photo__slider {
   max-width: 640px;
   margin: 0 auto;
+  /* position: relative; */
 }
 
-.photo {
-  margin-bottom: 80px;
+.slick-arrow {
+  position: absolute;
+  background-color: #ecb84c;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -20px;
+}
+.slick-next {
+  right: -20px;
 }
