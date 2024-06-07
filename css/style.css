@@ -307,3 +307,45 @@ a {
 .slick-next {
   right: -20px;
 }
+
+.footer {
+  padding-top: 55px;
+  padding-bottom: 32px;
+  background-color: #f8f8f8;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__item-title {
+  color: #4e5665;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer__item-link {
+  color: #505050;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.footer__copy {
+  padding-top: 40px;
+  text-align: center;
+  color: #505050;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
