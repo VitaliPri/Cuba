@@ -349,3 +349,22 @@ a {
   font-weight: 400;
   line-height: 19px;
 }
+
+.footer__item-link--social {
+  padding-left: 30px;
+  position: relative;
+}
+
+.footer__item-link--social::before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 1px;
+}
+
+.footer__item-link--message::before {
+  background-image: url("/images/icon-message.svg");
+}
