@@ -368,3 +368,18 @@ a {
 .footer__item-link--message::before {
   background-image: url("/images/icon-message.svg");
 }
+
+.footer__item-link--facebook::before {
+  background-image: url("/images/icon-facebook.svg");
+}
+
+.footer__item-link--instagram::before {
+  background-image: url("/images/icon-intstagram.svg");
+}
+.footer__item-link--youtube::before {
+  background-image: url("/images/icon-youtube.svg");
+}
+.footer__item-link--email::before {
+  background-image: url("/images/icon-email.svg");
+  top: 3px;
+}
