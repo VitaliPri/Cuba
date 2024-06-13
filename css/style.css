@@ -397,3 +397,23 @@ a {
 .about__preview-text {
   margin: 53px auto 80px;
 }
+
+.about__dot {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #ecb84c;
+  position: relative;
+}
+
+.about__dot::after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffd600;
+  position: absolute;
+}
