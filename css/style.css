@@ -398,15 +398,23 @@ a {
   margin: 53px auto 80px;
 }
 
+.about__images-box {
+  position: relative;
+}
+
 .about__dot {
+  position: absolute;
   width: 33px;
   height: 33px;
   border-radius: 50%;
   background-color: #ecb84c;
-  position: relative;
+  cursor: pointer;
+  left: 495px;
+  bottom: 181px;
 }
 
 .about__dot::after {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -415,5 +423,4 @@ a {
   height: 10px;
   border-radius: 50%;
   background-color: #ffd600;
-  position: absolute;
 }
