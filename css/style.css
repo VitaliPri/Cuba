@@ -423,7 +423,22 @@ a {
   background-color: #ffd600;
 }
 
+.about__dot--1 {
+  top: 117px;
+  left: 160px;
+}
+
+.about__dot--2 {
+  top: 117px;
+  left: 500px;
+}
+
 .about__dot--3 {
+  bottom: 42px;
+  right: 300px;
+}
+
+.about__dot--4 {
   bottom: 242px;
   right: 372px;
 }
@@ -460,4 +475,13 @@ a {
 }
 .about__dot:hover .about__dot-text {
   display: block;
+}
+
+@media (max-width: 650px) {
+  .header__title {
+    font-size: 100px;
+  }
+  .header__text {
+    font-size: 16px;
+  }
 }
