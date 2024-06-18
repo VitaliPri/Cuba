@@ -477,7 +477,31 @@ a {
   display: block;
 }
 
+.menu__btn {
+  display: none;
+}
+
 @media (max-width: 650px) {
+  .menu {
+    position: relative;
+  }
+  .menu__btn {
+    width: 40px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 7px;
+  }
+  .menu__btn span {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #ffd600;
+    height: 4px;
+  }
+  .menu__list {
+    display: none;
+  }
   .header__title {
     font-size: 100px;
   }
