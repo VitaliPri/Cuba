@@ -501,6 +501,15 @@ a {
   }
   .menu__list {
     display: none;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .menu__list-link {
+    display: inline-block;
+    padding: 10px;
+  }
+  .menu__list-link:hover {
+    text-underline-offset: 5px;
   }
   .header__title {
     font-size: 100px;
