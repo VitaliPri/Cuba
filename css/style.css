@@ -518,3 +518,15 @@ a {
     font-size: 16px;
   }
 }
+
+@media (min-width: 650px) {
+  .menu__list {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .header__text {
+    font-size: 12px;
+  }
+}
