@@ -484,6 +484,16 @@ a {
   display: none;
 }
 
+@media (max-width: 850px) {
+  .about__item {
+    padding: 382px 0 70px;
+    background-position: top;
+  }
+  .about__box {
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 650px) {
   .menu {
     position: relative;
