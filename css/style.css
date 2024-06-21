@@ -145,6 +145,7 @@ a {
 
 .why__card-inner {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 80px;
   border-bottom: 1px solid #d0d4d8;
@@ -153,6 +154,8 @@ a {
 
 .why__card {
   text-align: center;
+  width: 200px;
+  margin-bottom: 50px;
 }
 
 .about__title {
@@ -528,5 +531,8 @@ a {
 @media (max-width: 410px) {
   .header__text {
     font-size: 12px;
+  }
+  .why__card-number {
+    margin-top: 2px;
   }
 }
