@@ -484,13 +484,36 @@ a {
   display: none;
 }
 
+.about__images-box img {
+  max-width: 100%;
+}
+
+@media (max-width: 1150px) {
+  .about__dot--4 {
+    bottom: 232px;
+    right: 311px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about__dot {
+    display: none;
+  }
+}
+
 @media (max-width: 850px) {
   .about__item {
-    padding: 382px 0 70px;
+    padding: 382px 0 0;
     background-position: top;
   }
   .about__box {
     margin: 0 auto;
+  }
+  .about__item:nth-child(even) {
+    background-position: top;
+  }
+  .why__card-inner {
+    padding-bottom: 0px;
   }
 }
 
@@ -530,6 +553,9 @@ a {
   .header__text {
     font-size: 16px;
   }
+  .about__preview-title {
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: 650px) {
@@ -544,5 +570,8 @@ a {
   }
   .why__card-number {
     margin-top: 2px;
+  }
+  .about__item:nth-child(even) .about__box::before {
+    display: none;
   }
 }
